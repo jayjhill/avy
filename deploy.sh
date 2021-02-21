@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Switching to branch master"
+echo "Switching to branch master."
 git checkout master
 
 echo "Building app"
