@@ -8,4 +8,4 @@ npm run build
 
 echo "Deploying files to server"
 rsync -avP build/ jj@mountainlabmaps.com:/var/www/mountainlabmaps.com/public_html
-echo "Deployment complete"
+echo "Deployment complete."
