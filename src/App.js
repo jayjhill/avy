@@ -54,11 +54,11 @@ nightmare
 
     let getData = html => {
         console.log("poop");
-        data = [];
+        //data = [];
         const $ = cheerio.load(html);
         var title = $('.text_03.pt2');
         //console.log(title.text());
-        report = title.text();
+        let report = title.text();
 //parse report for keywords
         let high = report.match(/high/gi);
         let allAspects = report.match(/all steep/gi);
